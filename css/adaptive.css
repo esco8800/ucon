@@ -1,0 +1,305 @@
+@media (min-width: 1200px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.menu menu li {
+   		 margin-right: 35px; 
+	}
+	.header_text {
+	    margin-bottom: 27px;    
+	}
+	.footer_text address {
+	    font-size: 15px;	    
+	}
+	.header_text_phones {
+	    margin-left: 35px;
+	}
+	#pd-error {	 
+	    margin-top: 50px;
+	    margin-left: 30px;
+	}
+	.header_button {
+	    font-size: 17px;
+	    margin-top: 60px    
+	}
+	.icon_date{
+		right: 10%;
+    	top: 252px;
+	}
+	.itog_price {
+	    font-size: 27px;
+	    line-height: 50px;
+	}
+	.input_itog {
+	    margin-bottom: 20px;
+	}
+	.nice-select{
+		    margin-bottom: 20px;
+	}
+	.calc h1 {
+	    line-height: 59px;
+	    font-size: 35px;
+	}
+	.header_logo {
+    	margin: 8px 10px 20px -15px;
+	}
+
+}
+
+@media (max-width: 991px) {
+	.calc h1 {
+	    line-height: 50px;
+	    font-size: 27px;
+	}
+	.itog_price {
+	    line-height: 40px;
+	    font-size: 25px;
+	}
+	.header_logo {
+   		margin: 8px 10px 20px -15px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+	.calc h1{
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.menu menu li {
+	    margin-right: 12px;
+	} 
+
+	.header_text{
+		font-size: 16px;
+	}
+
+	.header_text_phones{
+		font-size: 16px;
+	}
+
+	.head_adress{
+		margin-left: 15px;
+	}
+	.current {
+	    font-size: 14px;
+	}
+	.itog_price{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.itog button {
+	    font-size: 19px;
+	}
+	.calc_text{
+		font-size: 17px;
+	}
+	.calc_kol {
+    	padding-left: 1px;
+    	padding-top: 3px;
+	}
+	.square{
+		font-size: 13px;
+	}
+	#pd-error {
+	    margin-top: 43px;
+	    margin-left: 35px;
+	}
+	.footer_logo {
+		float: right;
+	}
+	.icon_date{
+		right: 10%;
+    	top: 252px;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+	header{
+		position: fixed;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    background: #ffffff;
+	    height: 60px;
+	    z-index: 5;
+	}
+
+	header img{
+		padding-top: 5px;
+		max-height: 50px;
+	}
+
+	.header_logo{
+		margin: 0px;
+	}
+
+	.footer_col{
+		color: white;
+	}
+
+
+	.footer_nav{
+		text-align: center;
+	}
+
+	.calc {
+    	margin-top: 60px;
+	}
+
+	.itog_price {
+	    margin-top: 50px;
+	}
+
+	.menu_bot_head{
+	 	cursor: pointer;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	    transition: 0.3s;
+ 	}
+
+	.footer_col{
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	 .menu_bot_head span{
+		cursor: pointer;
+	 }
+
+	 .menu_bot_head:hover{
+	 	font-size: 25px;
+		border-radius: 7px;
+	 }
+
+	.menu_bot{
+		text-align: center;
+		display: none;
+	}
+
+	.menu_bot a{
+		color: white;
+	}
+	.footer_logo {
+		text-align: center;
+	}
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+	.calc_text{
+		font-size: 15px;
+	}
+	.square{
+		font-size: 16px;
+	}	
+	#pd-error {
+	    margin-top: 22px;
+	    margin-left: 35px;
+	}
+
+	.icon_date{
+		right: 7%;
+    	top: 54%;
+	}
+
+}
+
+@media (max-width: 575px) { 
+	#pd-error {
+	    margin-top: 23px;
+	    margin-left: 35px;
+	}
+
+	.calc_text{
+    	font-size: 20px;
+	}
+	.calc_kol {
+    	padding-left: 15px;
+	}
+	.left_heder::before {
+	   display: none;
+	}
+	header img {
+	    padding-left: 30px;
+	}
+	.square{
+		font-size: 20px;
+	}
+	.footer_text span {
+	    margin-left: 25px;
+	}
+	.footer_bot_rigth{
+		margin-right: 25px;
+	}
+	.left_heder {
+	    z-index: 0;
+	}
+	.calc_factura_color {
+    	margin-left: 0px;
+	}
+	.form_group {
+	    margin-bottom: 35px;
+	    text-align: center;
+	}
+	.calc span {
+		text-align: center;
+	}
+
+	.footer_text span {
+    	margin-left: 14px;
+    	text-align: center;
+	}
+	.footer_bot {
+	    text-align: center;
+	}
+
+	.modal_form {
+	    width: 300px;
+	    height: 180px;
+	}
+    .modal_head {
+	    font-size: 25px;
+	}
+	.modal_form p {
+	    padding-top: 10px;
+	    font-size: 18px;
+	}
+
+	.calc h1 {
+	    font-size: 23px;
+	}
+	.itog_price {
+	    font-size: 25px;	
+	}
+	.calc_header {
+	    margin-top: 50px;
+	}
+	.icon_date{
+		right: 7%;
+    	top: 53.5%;
+	}
+
+}
+
+	
+@media (max-width: 420px) { 
+
+	#pd-error {
+	    margin-top: 42px;
+	    margin-left: 35px;
+	}
+
+	.icon_date{
+		right: 9%;
+    	top: 52%;
+	}
+
+}
+
+
